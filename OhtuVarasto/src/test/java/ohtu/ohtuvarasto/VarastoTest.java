@@ -71,7 +71,7 @@ public class VarastoTest {
 
         varasto.otaVarastosta(-1);
         // varastossa pitäisi olla tilaa 10 - 8  2
-        assertEquals(0, varasto.paljonkoMahtuu(), vertailuTarkkuus);
+        assertEquals(2, varasto.paljonkoMahtuu(), vertailuTarkkuus);
     }
 
     @Test
